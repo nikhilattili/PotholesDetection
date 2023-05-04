@@ -21,5 +21,6 @@
     android:text="TextView"
     android:textSize="24dp"
     android:textAlignment="center"
+    android:visibility="gone"
     android:gravity="center_horizontal"
     />

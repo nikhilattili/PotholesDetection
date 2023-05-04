@@ -17,19 +17,21 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <net.springml.potholesdetection.AutoFitTextureView
+    <net.springml.roadsigndetection.AutoFitTextureView
         android:id="@+id/texture"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_alignParentBottom="true" />
 
-    <net.springml.potholesdetection.RecognitionScoreView
-        android:id="@+id/results"
-        android:layout_width="match_parent"
-        android:layout_height="112dp"
-        android:layout_alignParentTop="true" />
+<!--    <roadsigndetection.RecognitionScoreView-->
+<!--        android:id="@+id/results"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="112dp"-->
+<!--        android:layout_alignParentTop="true" />-->
 
-    <net.springml.potholesdetection.OverlayView
+
+
+    <net.springml.roadsigndetection.OverlayView
         android:id="@+id/debug_overlay"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
